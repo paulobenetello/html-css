@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategrey;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin: 7px;
+            padding: 1px 10px;
+        }
+        nav{
+            background-color: rgb(78, 78, 78);
+            padding: 4px;
+            margin: 5px;
+            box-shadow: 5px 3px 3px 1px rgba(0, 0, 0, 0.349);;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            padding: 2px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightslategrey;
+        }
+        main{
+            background-color: white;
+            margin: 20px 7px;
+            padding: 1px 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.459);
+        }
+        #assuntos{
+            background-color: gainsboro;
+            padding: 0px 3px;
+        }
+        #niticias{
+            background-color: gainsboro;
+            padding: 0px 0px;
+        }
+        h2, article > p{
+            padding: 0px 3px;
+        }
+        aside{
+            background-color: rgb(145, 145, 145);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin-top: 30px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Piadas</p>
+        </section>
+        <section id="niticias">
+            <article>
+                <h2>Noticia sobre lorem</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium totam officiis repellendus dolores quaerat, impedit expedita, nemo laborum, est optio amet alias deserunt pariatur sed doloribus cum similique qui neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat enim odio tempora placeat commodi modi nesciunt labore tempore fugit doloremque! Incidunt tenetur ea, quae magnam velit facere hic quidem quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, ipsum autem. Tempore eos voluptates consequatur nihil. Laborum molestiae quidem natus nisi culpa fugit molestias fuga, sequi officiis, quisquam iusto nihil.</p>
+            <aside>
+                <p>Escrito por Fulano</p>
+            </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>

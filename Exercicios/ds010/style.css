@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    font-size: 18px;
+}
+header{
+    background-image: linear-gradient(to bottom, #3CD782 10%, #1A5C38 90%);
+    height: 150px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-family: Oxanium, sans-serif;
+}
+header > p{
+    font-weight: lighter;
+}
+h1{
+    margin-bottom: 50px;
+    letter-spacing: -1px;
+}
+nav{
+    background-color: #1A5C38;
+    padding: 5px;
+}
+a.aheader{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+a.aheader:hover{
+    background-color: #2da865;
+    border-radius: 2px;
+}
+main{
+    background-color: white;
+    width: 850px;
+    margin: auto;
+    text-align: justify;
+    align-items: center;
+    padding: 15px 0px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.322);
+}
+.titulo{
+    font-family: idroid, sans-serif;
+    color: #1A5C38;
+}
+h2{
+    margin: 10px 20px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+h3.titulo{
+    background-image: linear-gradient(to right, #E7F6ED 75%, #ffffff);
+    padding: 1px 25px;
+}
+div#dvideo{
+    background-color: #1A5C38;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+div#dlist > h4{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-radius: 7px 7px 0px 0px;
+}
+div#dlist{
+    background-color: #C5EBD6;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.322);
+}
+i{
+    font-style: normal;
+    font-weight: bold;
+    color: #709982;
+}
+a.ap{
+    background-color: #7daf94;
+    color: #1A5C38;
+    padding: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.ap::after{
+    content: '\1F517';
+}
+footer{
+    background-color: #1A5C38;
+}
+footer > p{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    color: black;
+}
+ul{
+    padding-left: 20px;
+
+    column-count: 2;
+    column-gap: 20px;
+}
+li{
+    break-inside: avoid;
+    padding: 1px 0;
+}
+li::marker{
+    content: '\1F5F8';
+}
+p{
+    line-height: 1.35;
+    margin: 10px 20px 15px 20px;
+}
+main > p{
+    text-indent: 30px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
